@@ -1,5 +1,3 @@
-//Freelancers Array Containing Workers
-
 const freelancers = [
     { name: "Alice", occupation: "Writer", startingPrice: 30 },
     { name: "Bob", occupation: "Teacher", startingPrice: 50 },
