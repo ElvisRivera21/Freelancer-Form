@@ -24,4 +24,8 @@ function renderFreelancers(freelancers) {
 
         html += freelancerHTML;
     });
+
+    const container = document.getElementById("freelancersContainer");
+    container.innerHTML = html;
 }
+renderFreelancers(freelancers);
