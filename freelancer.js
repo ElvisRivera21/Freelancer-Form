@@ -1,3 +1,4 @@
+//Array of freelancers
 const freelancers = [
     { name: "Alice", occupation: "Writer", startingPrice: 30 },
     { name: "Bob", occupation: "Teacher", startingPrice: 50 },
@@ -22,8 +23,9 @@ function renderFreelancers(freelancers) {
 
         html += freelancerHTML;
     });
-
-    const container = document.getElementById("freelancersContainer");
+//container to hold rendered freelancers
+    const container = document.getElementById("freelancers");
     container.innerHTML = html;
 }
 renderFreelancers(freelancers);
+
